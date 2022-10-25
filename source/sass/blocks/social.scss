@@ -1,0 +1,11 @@
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 205px;
+  gap: 15px;
+}
+
+.social__link {
+  display: flex;
+  padding: 5px;
+}
