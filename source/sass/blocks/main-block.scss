@@ -6,8 +6,8 @@
 .main-block__container {
   position: absolute;
   top: 0;
-  padding: 185px 124px 280px;
   z-index: -1;
+  padding: 185px 124px 280px;
 
   @include vp-1023 {
     padding: 185px 50px 280px;
@@ -25,21 +25,30 @@
   @include vp-1023 {
     min-height: 640px;
   }
+
+  @include vp-767 {
+    min-height: 560px;
+  }
 }
 
 .main-block__image {
   position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   z-index: -2;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 
   @include vp-1023 {
-    top: -80px;
+    top: -15px;
     height: 640px;
     object-position: -123px 0;
+  }
+
+  @include vp-767 {
+    top: -10px;
+    height: 560px;
   }
 }
 
@@ -54,6 +63,10 @@
 
   @include vp-1023 {
     top: -80px;
+  }
+
+  @include vp-767 {
+    height: 560px;
   }
 }
 
