@@ -80,6 +80,12 @@
   }
 }
 
+@mixin vp-tablet-desktop {
+  @media (min-width: ($vp-768)) {
+    @content;
+  }
+}
+
 // Mobile first
 
 // @mixin vp-375 {
