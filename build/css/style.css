@@ -791,6 +791,7 @@ button,
   background: -webkit-gradient(linear, left top, left bottom, color-stop(84.9%, #041827), to(rgba(4, 24, 39, 0)));
   background: -o-linear-gradient(top, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
+  z-index: 1;
 }
 
 .main-header__container {
@@ -1036,6 +1037,100 @@ button,
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #f2f5f7;
+}
+
+.products {
+  background-color: #041827;
+}
+
+.products__container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.products__wrapper {
+  padding: 70px 50px 140px;
+}
+
+.products__title {
+  margin: 0 0 50px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.products__title--mobile {
+  display: none;
+}
+
+.products__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 85px;
+  width: 100%;
+}
+
+.products__item {
+  position: relative;
+  height: 650px;
+  padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products__item--manufacture {
+  background-image: url("../img/bg-desktop-card1.jpg");
+}
+
+.products__item--installation {
+  background-image: url("../img/bg-desktop-card2.jpg");
+}
+
+.products__item--accessories {
+  background-image: url("../img/bg-desktop-card3.jpg");
+}
+
+.products__link {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.products__subtitle {
+  width: 67%;
+  margin: 0;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.products__subtitle br {
+  display: none;
+}
+
+.products__button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #00b2ff;
+  border-radius: 3px 0 0 0;
 }
 
 .about__container {
@@ -1327,6 +1422,42 @@ button,
     margin-left: 45px;
   }
 
+  .products__wrapper {
+    padding: 60px 50px 75px;
+  }
+
+  .products__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .products__item {
+    height: 250px;
+    width: 100%;
+    padding: 40px 45px;
+  }
+
+  .products__item--manufacture {
+    background-image: url("../img/bg-tablet-card1.jpg");
+  }
+
+  .products__item--installation {
+    background-image: url("../img/bg-tablet-card2.jpg");
+  }
+
+  .products__item--accessories {
+    background-image: url("../img/bg-tablet-card3.jpg");
+  }
+
+  .products__subtitle {
+    width: 34%;
+  }
+
+  .products__subtitle br {
+    display: block;
+  }
+
   .about__wrapper {
     padding: 40px 50px 80px;
   }
@@ -1467,6 +1598,16 @@ button,
 
   .main-block__text--desktop {
     display: none;
+  }
+
+  .products__wrapper {
+    padding: 50px 25px 86px;
+  }
+
+  .products__title {
+    margin: 0 0 40px;
+    font-size: 28px;
+    line-height: 39px;
   }
 
   .about__wrapper {

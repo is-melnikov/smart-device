@@ -130,62 +130,46 @@
           </div>
         </section>
         <section class="products">
-          <div class="products__container container">
-            <h2 class="products__title title title--desktop">Smart Device предлагает следующие товары и услуги</h2>
-            <h2 class="products__title title title--mobile">Товары и услуги Smart Device</h2>
-            <ul class="products__list reset-list">
-              <li class="products__item product">
-                <a href="#" class="products__link">
-                  <div class="products__image-container">
-                    <picture>
-                      <source type="image/webp" srcset="img/bg-desktop.webp, img/bg-desktop@2x.webp 2x">
-                      <img class="products__image" src="img/bg-desktop.jpg" srcset="img/bg-desktop@2x.jpg 2x" alt="Плата." width="1920" height="880">
-                    </picture>
-                  </div>
-                  <h3 class="products__subtitle subtitle">Производство печатных плат</h3>
-                  <div class="products__button">
-                    <svg width="4" height="8">
-                      <use xlink:href=""></use>
-                    </svg>
-                    <span class="visually-hidden">Открыть карточку услуги"</span>
-                  </div>
-                </a>
-              </li>
-              <li class="products__item product">
-                <a href="#" class="products__link">
-                  <div class="products__image-container">
-                    <picture>
-                      <source type="image/webp" srcset="img/bg-desktop.webp, img/bg-desktop@2x.webp 2x">
-                      <img class="products__image" src="img/bg-desktop.jpg" srcset="img/bg-desktop@2x.jpg 2x" alt="Плата." width="1920" height="880">
-                    </picture>
-                  </div>
-                  <h3 class="products__subtitle subtitle">Монтаж печатных плат</h3>
-                  <div class="products__button">
-                    <svg width="4" height="8">
-                      <use xlink:href=""></use>
-                    </svg>
-                    <span class="visually-hidden">Открыть карточку услуги"</span>
-                  </div>
-                </a>
-              </li>
-              <li class="products__item product">
-                <a href="#" class="products__link">
-                  <div class="products__image-container">
-                    <picture>
-                      <source type="image/webp" srcset="img/bg-desktop.webp, img/bg-desktop@2x.webp 2x">
-                      <img class="products__image" src="img/bg-desktop.jpg" srcset="img/bg-desktop@2x.jpg 2x" alt="Плата." width="1920" height="880">
-                    </picture>
-                  </div>
-                  <h3 class="products__subtitle subtitle">Комплектующие для светотехники</h3>
-                  <div class="products__button">
-                    <svg width="4" height="8">
-                      <use xlink:href=""></use>
-                    </svg>
-                    <span class="visually-hidden">Открыть карточку услуги"</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
+          <div class="products__container">
+            <div class="products__wrapper">
+              <h2 class="products__title products__title--desktop">Smart Device предлагает следующие товары и услуги</h2>
+              <h2 class="products__title products__title--mobile">Товары и услуги Smart Device</h2>
+              <ul class="products__list reset-list">
+                <li class="products__item products__item--manufacture product">
+                  <a href="#" class="products__link">
+                    <h3 class="products__subtitle">Производство печатных плат</h3>
+                    <div class="products__button">
+                      <svg width="4" height="8">
+                        <use xlink:href="img/sprite_auto.svg#arrow"></use>
+                      </svg>
+                      <span class="visually-hidden">Открыть карточку услуги"</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="products__item products__item--installation product">
+                  <a href="#" class="products__link">
+                    <h3 class="products__subtitle">Монтаж<br> печатных плат</h3>
+                    <div class="products__button">
+                      <svg width="4" height="8">
+                        <use xlink:href="img/sprite_auto.svg#arrow"></use>
+                      </svg>
+                      <span class="visually-hidden">Открыть карточку услуги"</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="products__item products__item--accessories product">
+                  <a href="#" class="products__link">
+                    <h3 class="products__subtitle">Комплектующие для светотехники</h3>
+                    <div class="products__button">
+                      <svg class="products__icon" width="4" height="8">
+                        <use xlink:href="img/sprite_auto.svg#arrow"></use>
+                      </svg>
+                      <span class="visually-hidden">Открыть карточку услуги"</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="feedback" id="feedback">
@@ -195,7 +179,7 @@
               <img class="feedback__image" src="img/airplane.png" srcset="img/airplane@2x.png 2x" alt="Бумажный самолетик" width="510" height="285">
             </picture>
             <div class="feedback__form">
-              <h2 class="title feedback__title">Остались вопросы? Задайте их нам!</h2>
+              <h2 class="feedback__title">Остались вопросы? Задайте их нам!</h2>
               <form class="form" action="https://echo.htmlacademy.ru" method="post">
                 <p class="feedback__subtitle">Мы проконсультируем Вас бесплатно</p>
                 <label class="visually-hidden" for="first-name">Имя</label>
