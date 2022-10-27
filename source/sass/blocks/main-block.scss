@@ -6,7 +6,6 @@
 .main-block__container {
   position: absolute;
   top: 0;
-  z-index: -1;
   padding: 185px 124px 280px;
 
   @include vp-1023 {
@@ -118,6 +117,7 @@
   padding: 15px 25px;
   background-color: #00b2ff;
   border-radius: 3px;
+  cursor: pointer;
 
   @include vp-1023 {
     margin-left: 45px;
