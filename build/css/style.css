@@ -741,7 +741,7 @@ button,
   position: relative;
   width: 600px;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #00b3ff;
 }
 
 .modal__close-btn {
@@ -1079,6 +1079,7 @@ button,
   position: relative;
   height: 650px;
   padding: 50px 40px;
+  background-color: #314d6e;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1353,6 +1354,48 @@ button,
 
 .form label:last-of-type input[type=checkbox]:checked + span::before {
   background: url("../img/sprite/tick.svg") no-repeat 20% 50%;
+}
+
+.form--modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form--modal h2 {
+  margin: 0 0 -5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.form--modal p {
+  margin: 0 0 20px;
+  font-family: "PT Mono", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.form--modal button {
+  margin-top: 5px;
+}
+
+.form--modal label:last-of-type {
+  margin-left: 0;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.form--modal label:last-of-type span::before {
+  top: 0;
 }
 
 .main-footer {
@@ -1841,6 +1884,9 @@ button,
 
   .feedback__wrapper {
     padding: 50px 25px 90px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .feedback__title {
@@ -1873,6 +1919,10 @@ button,
 
   .form label:last-of-type {
     margin-left: 0;
+  }
+
+  .form label:last-of-type span::before {
+    top: 0;
   }
 
   .main-footer__container {
