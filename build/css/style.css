@@ -1323,30 +1323,36 @@ button,
 }
 
 .form label:last-of-type {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 14px;
-  line-height: 16px;
   -ms-flex-item-align: end;
   align-self: flex-end;
-}
-
-.form label:last-of-type input {
-  min-width: 0;
-  width: 15px;
-  height: 15px;
-  margin-right: 11px;
-}
-
-.form label:last-of-type span {
+  margin-left: 20px;
+  padding-left: 26px;
   font-family: "PT Mono", "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
+}
+
+.form label:last-of-type span::before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+
+.form label:last-of-type input[type=checkbox]:checked + span::before {
+  background: url("../img/sprite/tick.svg") no-repeat 20% 50%;
 }
 
 .main-footer {
