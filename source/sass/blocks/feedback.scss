@@ -19,6 +19,10 @@
   @include vp-1023 {
     padding: 50px 50px 130px;
   }
+
+  @include vp-767 {
+    padding: 50px 25px 90px;
+  }
 }
 
 .feedback__image-container {
@@ -40,6 +44,12 @@
   @include vp-1023 {
     margin: 0 0 10px;
   }
+
+  @include vp-767 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    line-height: 42px;
+  }
 }
 
 .feedback__description {
@@ -51,5 +61,11 @@
 
   @include vp-1023 {
     margin: 0 0 25px;
+  }
+
+  @include vp-767 {
+    margin: 0 0 40px;
+    font-size: 14px;
+    line-height: 19px;
   }
 }

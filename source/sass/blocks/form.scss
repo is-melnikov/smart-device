@@ -3,6 +3,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px 30px;
 
+  @include vp-767 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+
   input {
     padding: 15px;
     min-width: 275px;
@@ -13,6 +19,10 @@
     font-size: 16px;
     line-height: 22px;
     color: $color-default-white;
+
+    @include vp-767 {
+      min-width: 270px;
+    }
 
     &::placeholder {
       color: $color-default-white;
@@ -25,6 +35,10 @@
     background-color: rgba(4, 20, 39, 0.15);
     border: none;
     border-radius: 3px;
+
+    @include vp-767 {
+      grid-column: 1/2;
+    }
 
     &::placeholder {
       color: $color-default-white;
@@ -59,6 +73,10 @@
 
     @include vp-1023 {
       margin-left: 85px;
+    }
+
+    @include vp-767 {
+      margin-left: 0;
     }
 
     span {

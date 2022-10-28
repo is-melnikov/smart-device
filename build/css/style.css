@@ -1839,6 +1839,42 @@ button,
     padding: 8px 12px;
   }
 
+  .feedback__wrapper {
+    padding: 50px 25px 90px;
+  }
+
+  .feedback__title {
+    margin: 0 0 20px;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .feedback__description {
+    margin: 0 0 40px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .form {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .form input {
+    min-width: 270px;
+  }
+
+  .form textarea {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+
+  .form label:last-of-type {
+    margin-left: 0;
+  }
+
   .main-footer__container {
     display: block;
     padding: 35px 25px;
