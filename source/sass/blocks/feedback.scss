@@ -1,5 +1,9 @@
 .feedback {
   background: linear-gradient(139deg, rgba(4, 24, 39, 0.5) 33%, #00b3ff 33%), #00b3ff;
+
+  @include vp-1023 {
+    background: #00b3ff;
+  }
 }
 
 .feedback__container {
@@ -11,10 +15,18 @@
   display: flex;
   align-items: center;
   padding: 170px 50px;
+
+  @include vp-1023 {
+    padding: 50px 50px 130px;
+  }
 }
 
 .feedback__image-container {
   margin-right: 115px;
+
+  @include vp-1023 {
+    display: none;
+  }
 }
 
 .feedback__title {
@@ -24,6 +36,10 @@
   font-size: 36px;
   line-height: 51px;
   color: $color-default-white;
+
+  @include vp-1023 {
+    margin: 0 0 10px;
+  }
 }
 
 .feedback__description {
@@ -32,4 +48,8 @@
   font-size: 16px;
   line-height: 22px;
   color: $color-default-white;
+
+  @include vp-1023 {
+    margin: 0 0 25px;
+  }
 }

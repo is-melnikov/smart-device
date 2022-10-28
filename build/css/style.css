@@ -1332,7 +1332,7 @@ button,
   align-items: center;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  margin-left: 20px;
+  margin-left: 50px;
   padding-left: 26px;
   font-family: "PT Mono", "Arial", sans-serif;
   font-size: 14px;
@@ -1624,6 +1624,30 @@ button,
 
   .about__text-wrapper {
     margin-left: 29px;
+  }
+
+  .feedback {
+    background: #00b3ff;
+  }
+
+  .feedback__wrapper {
+    padding: 50px 50px 130px;
+  }
+
+  .feedback__image-container {
+    display: none;
+  }
+
+  .feedback__title {
+    margin: 0 0 10px;
+  }
+
+  .feedback__description {
+    margin: 0 0 25px;
+  }
+
+  .form label:last-of-type {
+    margin-left: 85px;
   }
 
   .main-footer__container {
