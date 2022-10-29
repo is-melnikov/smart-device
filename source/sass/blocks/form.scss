@@ -27,6 +27,14 @@
     &::placeholder {
       color: $color-default-white;
     }
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
   }
 
   textarea {
@@ -57,6 +65,14 @@
     color: $color-default-white;
     background-color: #041427;
     border-radius: 3px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
   }
 
   label:last-of-type {
@@ -98,6 +114,10 @@
 
     input[type="checkbox"]:checked + span::before {
       background: url("../img/sprite/tick.svg") no-repeat 20% 50%;
+    }
+
+    input[type="checkbox"]:focus-within + span::before {
+      outline: 1px solid $color-default-black;
     }
   }
 }

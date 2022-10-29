@@ -827,6 +827,14 @@ button,
   border-radius: 3px;
 }
 
+.main-header__button:hover {
+  opacity: 0.5;
+}
+
+.main-header__button:active {
+  opacity: 0.3;
+}
+
 .logo__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -835,6 +843,14 @@ button,
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.logo__link:hover {
+  opacity: 0.5;
+}
+
+.logo__link:active {
+  opacity: 0.3;
 }
 
 .logo__icon {
@@ -902,6 +918,14 @@ button,
   font-size: 16px;
   line-height: 18px;
   color: #f2f5f7;
+}
+
+.header-contacts__link:hover {
+  opacity: 0.5;
+}
+
+.header-contacts__link:active {
+  opacity: 0.3;
 }
 
 .header-contacts__icon {
@@ -1029,6 +1053,14 @@ button,
   cursor: pointer;
 }
 
+.main-block__link:hover {
+  opacity: 0.8;
+}
+
+.main-block__link:active {
+  opacity: 0.5;
+}
+
 .main-block__text {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 700;
@@ -1136,6 +1168,14 @@ button,
   border-radius: 3px 0 0 0;
 }
 
+.products__button:hover {
+  opacity: 0.5;
+}
+
+.products__button:active {
+  opacity: 0.3;
+}
+
 .about__container {
   max-width: 1320px;
   margin: 0 auto;
@@ -1196,6 +1236,14 @@ button,
   background-color: inherit;
   border: 1px solid #00b2ff;
   border-radius: 3px;
+}
+
+.about__button:hover {
+  opacity: 0.5;
+}
+
+.about__button:active {
+  opacity: 0.3;
 }
 
 .feedback {
@@ -1279,6 +1327,14 @@ button,
   color: #ffffff;
 }
 
+.form input:hover {
+  opacity: 0.5;
+}
+
+.form input:active {
+  opacity: 0.3;
+}
+
 .form textarea {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -1323,6 +1379,14 @@ button,
   border-radius: 3px;
 }
 
+.form button:hover {
+  opacity: 0.5;
+}
+
+.form button:active {
+  opacity: 0.3;
+}
+
 .form label:last-of-type {
   position: relative;
   display: -webkit-box;
@@ -1354,6 +1418,10 @@ button,
 
 .form label:last-of-type input[type=checkbox]:checked + span::before {
   background: url("../img/sprite/tick.svg") no-repeat 20% 50%;
+}
+
+.form label:last-of-type input[type=checkbox]:focus-within + span::before {
+  outline: 1px solid #000000;
 }
 
 .form--modal {
@@ -1427,6 +1495,14 @@ button,
   color: rgba(255, 255, 255, 0.7);
 }
 
+.main-footer__link:hover {
+  opacity: 0.5;
+}
+
+.main-footer__link:active {
+  opacity: 0.3;
+}
+
 .social__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1442,6 +1518,14 @@ button,
   display: -ms-flexbox;
   display: flex;
   padding: 5px;
+}
+
+.social__link:hover {
+  opacity: 0.5;
+}
+
+.social__link:active {
+  opacity: 0.3;
 }
 
 .footer-navigation__list {

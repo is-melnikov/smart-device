@@ -27,6 +27,14 @@
   font-size: 16px;
   line-height: 18px;
   color: #f2f5f7;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .header-contacts__icon {

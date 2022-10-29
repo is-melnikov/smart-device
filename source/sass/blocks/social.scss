@@ -8,4 +8,12 @@
 .social__link {
   display: flex;
   padding: 5px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
