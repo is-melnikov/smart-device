@@ -94,4 +94,9 @@
   &:active {
     opacity: 0.3;
   }
+
+  &--nojs {
+    display: none;
+  }
 }
+

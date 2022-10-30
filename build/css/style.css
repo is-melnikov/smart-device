@@ -1246,6 +1246,10 @@ button,
   opacity: 0.3;
 }
 
+.about__button--nojs {
+  display: none;
+}
+
 .feedback {
   background: -o-linear-gradient(311deg, rgba(4, 24, 39, 0.5) 33%, #00b3ff 33%), #00b3ff;
   background: linear-gradient(139deg, rgba(4, 24, 39, 0.5) 33%, #00b3ff 33%), #00b3ff;
