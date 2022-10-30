@@ -1304,7 +1304,7 @@ button,
   font-family: "PT Mono", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .form input::-webkit-input-placeholder {
@@ -1365,6 +1365,14 @@ button,
   color: #ffffff;
 }
 
+.form textarea:hover {
+  opacity: 0.5;
+}
+
+.form textarea:active {
+  opacity: 0.3;
+}
+
 .form button {
   padding: 15px 25px;
   border-style: none;
@@ -1403,6 +1411,7 @@ button,
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .form label:last-of-type span::before {
@@ -1422,6 +1431,10 @@ button,
 
 .form label:last-of-type input[type=checkbox]:focus-within + span::before {
   outline: 1px solid #000000;
+}
+
+.form label:last-of-type input[type=checkbox]:hover + span::before {
+  opacity: 0.5;
 }
 
 .form--modal {
