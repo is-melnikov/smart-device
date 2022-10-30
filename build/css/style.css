@@ -2060,7 +2060,20 @@ button,
     left: -25px;
   }
 
+  .footer-navigation--nojs .footer-navigation__title::before,
+  .footer-navigation--nojs .footer-navigation__title::after {
+    display: none;
+  }
+
+  .footer-navigation--open .footer-navigation__title::after {
+    display: none;
+  }
+
   .footer-navigation__list {
+    padding-bottom: 20px;
+  }
+
+  .footer-navigation__list--hidden {
     display: none;
   }
 
@@ -2118,6 +2131,15 @@ button,
     left: -25px;
   }
 
+  .footer-contacts--nojs .footer-contacts__title::before,
+  .footer-contacts--nojs .footer-contacts__title::after {
+    display: none;
+  }
+
+  .footer-contacts--open .footer-contacts__title::after {
+    display: none;
+  }
+
   .footer-contacts__title {
     width: 100%;
     padding: 20px 15px 20px 0;
@@ -2148,6 +2170,10 @@ button,
   }
 
   .footer-contacts__list {
+    padding-bottom: 20px;
+  }
+
+  .footer-contacts__list--hidden {
     display: none;
   }
 }

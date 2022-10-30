@@ -29,6 +29,15 @@
       position: absolute;
       left: -25px;
     }
+
+    &--nojs .footer-contacts__title::before,
+    &--nojs .footer-contacts__title::after {
+      display: none;
+    }
+
+    &--open .footer-contacts__title::after {
+      display: none;
+    }
   }
 }
 
@@ -69,6 +78,10 @@
   gap: 10px;
 
   @include vp-767 {
-    display: none;
+    padding-bottom: 20px;
+
+    &--hidden {
+      display: none;
+    }
   }
 }
