@@ -30,6 +30,19 @@
     padding: 40px 40px 18px;
   }
 
+  @include vp-767 {
+    min-height: 340px;
+    padding: 29px 25px 18px 24px;
+
+    &--short {
+      min-height: 325px;
+
+      h3 {
+        margin: 0 0 14px;
+      }
+    }
+  }
+
   &:hover {
     background-color: #00b2ff;
 
@@ -48,6 +61,15 @@
 
   @include vp-1023 {
     margin-bottom: 8px;
+  }
+
+  @include vp-767 {
+    width: 30px;
+    height: 30px;
+
+    &--short {
+      margin-bottom: 11px;
+    }
   }
 }
 

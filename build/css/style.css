@@ -812,6 +812,10 @@ button,
   padding: 30px 116px 34px 50px;
 }
 
+.main-header__header-contacts {
+  margin: 0 0 8px -5px;
+}
+
 .main-header__button {
   margin: 0 -4px 6px 0;
   padding: 10px 15px 11px 16px;
@@ -850,7 +854,6 @@ button,
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   min-width: 480px;
-  margin: 0 0 8px -5px;
 }
 
 .header-contacts__link {
@@ -1485,7 +1488,7 @@ button,
 }
 
 .main-footer__footer-contacts {
-  margin: 10px 22px 0 10px;
+  margin: 10px 0 0 10px;
 }
 
 .social__list {
@@ -1837,6 +1840,10 @@ button,
     margin: 0;
   }
 
+  .main-footer__footer-contacts {
+    margin: 10px 22px 0 10px;
+  }
+
   .social__list {
     margin: 0 0 4px 0;
     padding-right: 5px;
@@ -1875,7 +1882,14 @@ button,
   }
 
   .main-header__container {
-    padding: 10px 35px 20px 26px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px 15px 8px 26px;
+  }
+
+  .main-header__header-contacts {
+    margin: 6px 0 8px 0;
   }
 
   .logo__icon-desktop {
@@ -1892,6 +1906,28 @@ button,
     padding: 50px 25px 25px;
   }
 
+  .advantages__item {
+    min-height: 340px;
+    padding: 29px 25px 18px 24px;
+  }
+
+  .advantages__item--short {
+    min-height: 325px;
+  }
+
+  .advantages__item--short h3 {
+    margin: 0 0 14px;
+  }
+
+  .advantages__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .advantages__icon--short {
+    margin-bottom: 11px;
+  }
+
   .advantages__item h3 {
     font-size: 20px;
     line-height: 28px;
@@ -1903,7 +1939,7 @@ button,
   }
 
   .main-block__container {
-    padding: 185px 25px 190px;
+    padding: 150px 25px 190px;
   }
 
   .main-block__image-container {
@@ -1911,8 +1947,9 @@ button,
   }
 
   .main-block__image {
-    top: -10px;
     height: 560px;
+    -o-object-position: -230px 0;
+    object-position: -230px 0;
   }
 
   .main-block__overlay {
@@ -1920,12 +1957,14 @@ button,
   }
 
   .main-block__title {
+    margin: 0 0 8px;
     font-size: 36px;
     line-height: 42px;
   }
 
   .main-block__description {
     width: 100%;
+    margin: 0 0 44px;
     font-size: 14px;
     line-height: 22px;
   }
@@ -1933,6 +1972,7 @@ button,
   .main-block__link {
     width: 100%;
     margin-left: 0;
+    padding: 13px 25px 11px;
     font-size: 14px;
     line-height: 16px;
   }
@@ -1951,7 +1991,7 @@ button,
   }
 
   .products__wrapper {
-    padding: 50px 25px 86px;
+    padding: 47px 25px 86px;
   }
 
   .products__title--mobile {
@@ -1959,13 +1999,29 @@ button,
   }
 
   .products__title {
-    margin: 0 0 40px;
+    margin: 0 0 29px;
     font-size: 28px;
     line-height: 39px;
   }
 
   .products__title--desktop {
     display: none;
+  }
+
+  .products__item {
+    padding: 26px 30px;
+  }
+
+  .products__item--manufacture {
+    background-image: url("../img/bg-mobile-card1.jpg");
+  }
+
+  .products__item--installation {
+    background-image: url("../img/bg-mobile-card2.jpg");
+  }
+
+  .products__item--accessories {
+    background-image: url("../img/bg-mobile-card3.jpg");
   }
 
   .products__subtitle {
@@ -1980,7 +2036,7 @@ button,
   }
 
   .about__wrapper {
-    padding: 25px 25px 80px;
+    padding: 23px 25px 80px;
   }
 
   .about__image {
@@ -1993,6 +2049,7 @@ button,
   }
 
   .about__text-wrapper p {
+    margin: 0 0 18px;
     font-size: 14px;
     line-height: 19px;
   }
@@ -2001,25 +2058,30 @@ button,
     margin-left: 0;
   }
 
+  .about__description--hidden-mobile {
+    display: none;
+  }
+
   .about__button {
+    width: 160px;
     padding: 8px 12px;
   }
 
   .feedback__wrapper {
-    padding: 50px 25px 90px;
+    padding: 47px 25px 88px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
 
   .feedback__title {
-    margin: 0 0 20px;
+    margin: 0 0 7px;
     font-size: 30px;
     line-height: 42px;
   }
 
   .feedback__description {
-    margin: 0 0 40px;
+    margin: 0 0 33px;
     font-size: 14px;
     line-height: 19px;
   }
@@ -2032,20 +2094,30 @@ button,
 
   .form input {
     width: 270px;
+    padding: 15px 14px 13px;
   }
 
   .form textarea {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
+    height: 180px;
+    margin: 0 0 11px;
+    padding: 26px 15px;
+  }
+
+  .form button {
+    width: 100%;
   }
 
   .form label:last-of-type {
-    margin-left: 0;
+    margin: 6px 0 0;
+    padding-left: 30px;
   }
 
   .form label:last-of-type span::before {
-    top: 0;
+    top: 6px;
+    left: 4px;
   }
 
   .main-footer__container {
@@ -2058,6 +2130,28 @@ button,
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: 24px;
+  }
+
+  .main-footer__logo {
+    margin: 0 5px 15px 0;
+  }
+
+  .main-footer__link {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .main-footer__footer-navigation {
+    margin-top: 0;
+  }
+
+  .main-footer__footer-contacts {
+    margin: 0;
+  }
+
+  .social__list {
+    margin: 0 0 0 6px;
   }
 
   .footer-navigation {
@@ -2102,7 +2196,7 @@ button,
   .footer-navigation__title {
     position: relative;
     width: 100%;
-    padding: 20px 15px 20px 0;
+    padding: 24px 15px 20px 0;
     margin: 0;
   }
 
@@ -2164,7 +2258,7 @@ button,
 
   .footer-contacts__title {
     width: 100%;
-    padding: 20px 15px 20px 0;
+    padding: 24px 15px 20px 0;
     margin: 0;
   }
 
@@ -2192,7 +2286,9 @@ button,
   }
 
   .footer-contacts__list {
+    margin: -7px 0;
     padding-bottom: 20px;
+    gap: 8px;
   }
 
   .footer-contacts__list--hidden {
