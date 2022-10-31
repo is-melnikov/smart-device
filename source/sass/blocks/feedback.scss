@@ -14,7 +14,7 @@
 .feedback__wrapper {
   display: flex;
   align-items: center;
-  padding: 170px 50px;
+  padding: 165px 50px 248px;
 
   @include vp-1023 {
     padding: 50px 50px 130px;
@@ -27,15 +27,19 @@
 }
 
 .feedback__image-container {
-  margin-right: 115px;
+  margin: 20px 120px 0 0;
 
   @include vp-1023 {
     display: none;
   }
 }
 
+.feedback__image {
+  max-width: max-content;
+}
+
 .feedback__title {
-  margin: 0 0 15px;
+  margin: 0 0 11px -5px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;

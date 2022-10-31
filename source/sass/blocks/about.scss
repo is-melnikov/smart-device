@@ -5,8 +5,7 @@
 
 .about__wrapper {
   display: flex;
-  align-items: center;
-  padding: 60px 50px 100px;
+  padding: 60px 50px 97px;
 
   @include vp-1023 {
     padding: 40px 50px 80px;
@@ -29,7 +28,7 @@
   margin-left: 100px;
 
   & h2 {
-    margin: 0 0 15px;
+    margin: 0 0 12px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -70,6 +69,7 @@
 
 .about__button {
   width: 180px;
+  margin: 19px 0 0;
   padding: 14px 12px;
   border-style: none;
   font-family: "Roboto Condensed", "Arial", sans-serif;
