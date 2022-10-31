@@ -60,7 +60,7 @@
 
 .products__item {
   position: relative;
-  height: 650px;
+  min-height: 650px;
   padding: 50px 40px;
   background-color: #314d6e;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
   background-position: center;
 
   @include vp-1023 {
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     padding: 40px 45px;
   }

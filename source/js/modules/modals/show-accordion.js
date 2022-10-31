@@ -11,7 +11,7 @@ const showAccordion = () => {
   navigationList.classList.add('footer-navigation__list--hidden');
   contactsList.classList.add('footer-contacts__list--hidden');
 
-  navigationTitle.addEventListener('click', function () {
+  const onNavigationClick = () => {
     if (navigationList.classList.contains('footer-navigation__list--hidden')) {
       navigationList.classList.remove('footer-navigation__list--hidden');
       navigationAccordion.classList.add('footer-navigation--open');
@@ -21,9 +21,9 @@ const showAccordion = () => {
       navigationList.classList.add('footer-navigation__list--hidden');
       navigationAccordion.classList.remove('footer-navigation--open');
     }
-  });
+  };
 
-  contactsTitle.addEventListener('click', function () {
+  const onContactsClick = () => {
     if (contactsList.classList.contains('footer-contacts__list--hidden')) {
       contactsList.classList.remove('footer-contacts__list--hidden');
       contactsAccordion.classList.add('footer-contacts--open');
@@ -33,7 +33,12 @@ const showAccordion = () => {
       contactsList.classList.add('footer-contacts__list--hidden');
       contactsAccordion.classList.remove('footer-contacts--open');
     }
-  });
+  };
+
+  navigationTitle.addEventListener('click', onNavigationClick);
+  navigationTitle.addEventListener('keydown', onNavigationClick);
+  contactsTitle.addEventListener('click', onContactsClick);
+  contactsTitle.addEventListener('keydown', onContactsClick);
 };
 
 export {showAccordion};

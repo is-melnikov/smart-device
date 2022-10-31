@@ -835,59 +835,8 @@ button,
   opacity: 0.3;
 }
 
-.logo__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 215px;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.logo__link:hover {
-  opacity: 0.5;
-}
-
-.logo__link:active {
-  opacity: 0.3;
-}
-
-.logo__icon {
-  width: 55px;
-  height: 55px;
-}
-
-.logo__text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.logo__text-title {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 29px;
-  color: #f2f5f7;
-}
-
-.logo__text-title--footer {
-  color: #f2f5f7;
-}
-
-.logo__text-description {
-  font-family: "Roboto", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  color: rgba(255, 255, 255, 0.7);
+.logo__icon-mobile {
+  display: none;
 }
 
 .header-contacts {
@@ -1044,9 +993,7 @@ button,
 
 .main-block__link {
   display: block;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 50%;
   padding: 15px 25px;
   background-color: #00b2ff;
   border-radius: 3px;
@@ -1109,7 +1056,7 @@ button,
 
 .products__item {
   position: relative;
-  height: 650px;
+  min-height: 650px;
   padding: 50px 40px;
   background-color: #314d6e;
   background-repeat: no-repeat;
@@ -1723,6 +1670,7 @@ button,
   }
 
   .main-block__link {
+    width: 61%;
     margin-left: 45px;
   }
 
@@ -1737,7 +1685,7 @@ button,
   }
 
   .products__item {
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     padding: 40px 45px;
   }
@@ -1852,17 +1800,12 @@ button,
     padding: 10px 35px 20px 26px;
   }
 
-  .logo__link--header {
-    min-width: 35px;
-  }
-
-  .logo__icon--header {
-    width: 35px;
-    height: 35px;
-  }
-
-  .logo__text-container--header {
+  .logo__icon-desktop {
     display: none;
+  }
+
+  .logo__icon-mobile {
+    display: block;
   }
 
   .advantages__list {
@@ -1910,6 +1853,7 @@ button,
   }
 
   .main-block__link {
+    width: 100%;
     margin-left: 0;
     font-size: 14px;
     line-height: 16px;
