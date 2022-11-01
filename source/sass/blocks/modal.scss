@@ -38,7 +38,7 @@
     align-items: center;
     width: 100%;
     min-height: 100%;
-    padding: 60px 40px;
+    padding: 144px 40px 142px 20px;
 
     @include vp-767 {
       padding: 60px 16px;
@@ -59,7 +59,7 @@
   &__content {
     position: relative;
 
-    width: 600px;
+    width: 500px;
     padding: 40px;
 
     background-color: #00b3ff;
@@ -72,8 +72,8 @@
 
   &__close-btn {
     position: absolute;
-    top: 22px;
-    right: 22px;
+    top: 20px;
+    right: 13px;
     z-index: 1;
 
     width: 40px;

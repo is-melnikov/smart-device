@@ -725,7 +725,7 @@ button,
   align-items: center;
   width: 100%;
   min-height: 100%;
-  padding: 60px 40px;
+  padding: 144px 40px 142px 20px;
 }
 
 .modal__overlay {
@@ -739,15 +739,15 @@ button,
 
 .modal__content {
   position: relative;
-  width: 600px;
+  width: 500px;
   padding: 40px;
   background-color: #00b3ff;
 }
 
 .modal__close-btn {
   position: absolute;
-  top: 22px;
-  right: 22px;
+  top: 20px;
+  right: 13px;
   z-index: 1;
   width: 40px;
   height: 40px;
@@ -1421,10 +1421,11 @@ button,
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 20px;
+  width: 420px;
 }
 
 .form--modal h2 {
-  margin: 0 0 -5px;
+  margin: 0 0 -16px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -1433,19 +1434,31 @@ button,
 }
 
 .form--modal p {
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   font-family: "PT Mono", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
 }
 
+.form--modal input {
+  width: 100%;
+  padding: 15px 16px;
+}
+
+.form--modal textarea {
+  width: 100%;
+  padding: 24px 15px;
+  margin: 0;
+}
+
 .form--modal button {
+  width: 100%;
   margin-top: 5px;
 }
 
 .form--modal label:last-of-type {
-  margin-left: 0;
+  margin-left: 2px;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }

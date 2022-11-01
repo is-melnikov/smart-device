@@ -171,9 +171,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 420px;
 
   h2 {
-    margin: 0 0 -5px;
+    margin: 0 0 -16px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -182,19 +183,31 @@
   }
 
   p {
-    margin: 0 0 20px;
+    margin: 0 0 15px;
     font-family: "PT Mono", "Arial", sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: $color-default-white;
   }
 
+  input {
+    width: 100%;
+    padding: 15px 16px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 24px 15px;
+    margin: 0;
+  }
+
   button {
+    width: 100%;
     margin-top: 5px;
   }
 
   label:last-of-type {
-    margin-left: 0;
+    margin-left: 2px;
     align-self: flex-start;
 
     span {
