@@ -788,7 +788,7 @@ button,
 
 .main-header {
   position: fixed;
-  width: 100%;
+  min-width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(84.9%, #041827), to(rgba(4, 24, 39, 0)));
   background: -o-linear-gradient(top, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
@@ -1040,7 +1040,7 @@ button,
 }
 
 .products__title {
-  margin: 0 0 53px;
+  margin: 0 0 52px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -1139,7 +1139,7 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 50px 97px;
+  padding: 60px 50px 100px;
 }
 
 .about__image {
@@ -1149,6 +1149,13 @@ button,
 }
 
 .about__text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-left: 100px;
 }
 
@@ -1171,6 +1178,13 @@ button,
 
 .about__description--hidden {
   display: none;
+}
+
+.about__description--hidden-mobile {
+  margin: -20px 0 21px;
+  font-family: "PT Mono", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .about__button {
@@ -1224,12 +1238,6 @@ button,
 
 .feedback__image-container {
   margin: 20px 120px 0 0;
-}
-
-.feedback__image {
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 .feedback__title {
@@ -1679,6 +1687,14 @@ button,
     padding: 40px 40px 18px;
   }
 
+  .advantages__item--short {
+    min-height: 360px;
+  }
+
+  .advantages__item--short h3 {
+    margin: 0 0 14px;
+  }
+
   .advantages__icon {
     margin-bottom: 8px;
   }
@@ -1771,6 +1787,10 @@ button,
 
   .about__text-wrapper {
     margin-left: 29px;
+  }
+
+  .about__description--hidden-mobile {
+    margin: -22px 0 25px;
   }
 
   .about__button {
@@ -2036,7 +2056,7 @@ button,
   }
 
   .about__wrapper {
-    padding: 23px 25px 80px;
+    padding: 23px 25px 82px;
   }
 
   .about__image {
@@ -2064,6 +2084,7 @@ button,
 
   .about__button {
     width: 160px;
+    margin: -6px 0 0;
     padding: 8px 12px;
   }
 

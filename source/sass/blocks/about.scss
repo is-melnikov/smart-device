@@ -5,14 +5,14 @@
 
 .about__wrapper {
   display: flex;
-  padding: 60px 50px 97px;
+  padding: 60px 50px 100px;
 
   @include vp-1023 {
     padding: 35px 50px 80px 46px;
   }
 
   @include vp-767 {
-    padding: 23px 25px 80px;
+    padding: 23px 25px 82px;
   }
 }
 
@@ -29,6 +29,8 @@
 }
 
 .about__text-wrapper {
+  display: flex;
+  flex-direction: column;
   margin-left: 100px;
 
   & h2 {
@@ -73,6 +75,15 @@
 }
 
 .about__description--hidden-mobile {
+  margin: -20px 0 21px;
+  font-family: "PT Mono", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+
+  @include vp-1023 {
+    margin: -22px 0 25px;
+  }
+
   @include vp-767 {
     display: none;
   }
@@ -100,6 +111,7 @@
 
   @include vp-767 {
     width: 160px;
+    margin: -6px 0 0;
     padding: 8px 12px;
   }
 
