@@ -1553,6 +1553,15 @@ button,
   opacity: 0.3;
 }
 
+.footer-navigation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .footer-navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1566,8 +1575,8 @@ button,
   justify-content: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-height: 150px;
-  min-width: 470px;
+  min-height: 150px;
+  min-width: 220px;
   gap: 5px 30px;
 }
 
@@ -1763,6 +1772,7 @@ button,
   .main-block__link {
     width: 61%;
     margin-left: 45px;
+    padding: 17px 25px;
   }
 
   .products__wrapper {
