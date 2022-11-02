@@ -1,6 +1,6 @@
-const inputs = document.querySelectorAll('input[data-js="phone-number"]');
+const INPUTS = document.querySelectorAll('input[data-js="phone-number"]');
 
-const prefixNumber = (str) => {
+const getPrefixNumber = (str) => {
   if (str === '7') {
     return '+7 (';
   }
@@ -13,7 +13,7 @@ const prefixNumber = (str) => {
 };
 
 const createMask = () => {
-  inputs.forEach((input) => input.addEventListener('input', () => {
+  INPUTS.forEach((input) => input.addEventListener('input', () => {
     const value = input.value.replace(/\D+/g, '');
     const numberLength = 11;
 
@@ -27,7 +27,7 @@ const createMask = () => {
     for (let i = 0; i < value.length && i < numberLength; i++) {
       switch (i) {
         case 0:
-          result += prefixNumber(value[i]);
+          result += getPrefixNumber(value[i]);
           continue;
         case 4:
           result += ') ';
