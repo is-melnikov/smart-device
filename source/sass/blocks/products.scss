@@ -145,13 +145,13 @@
   }
 }
 
-.products__link {
+.products__item-link {
   display: block;
   height: 100%;
   width: 100%;
 }
 
-.products__subtitle {
+.products__item-subtitle {
   width: 67%;
   margin: 0;
   font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -179,7 +179,7 @@
   }
 }
 
-.products__button {
+.products__item-button {
   position: absolute;
   bottom: 0;
   right: 0;
