@@ -1072,15 +1072,18 @@ button,
 }
 
 .products__item--manufacture {
-  background-image: url("../img/bg-desktop-card1.jpg");
+  background-image: -webkit-image-set(url("../img/bg-desktop-card1.webp") 1x, url("../img/bg-desktop-card1@2x.webp") 2x);
+  background-image: image-set("../img/bg-desktop-card1.webp" 1x, "../img/bg-desktop-card1@2x.webp" 2x);
 }
 
 .products__item--installation {
-  background-image: url("../img/bg-desktop-card2.jpg");
+  background-image: -webkit-image-set(url("../img/bg-desktop-card2.webp") 1x, url("../img/bg-desktop-card2@2x.webp") 2x);
+  background-image: image-set("../img/bg-desktop-card2.webp" 1x, "../img/bg-desktop-card2@2x.webp" 2x);
 }
 
 .products__item--accessories {
-  background-image: url("../img/bg-desktop-card3.jpg");
+  background-image: -webkit-image-set(url("../img/bg-desktop-card3.webp") 1x, url("../img/bg-desktop-card3@2x.webp") 2x);
+  background-image: image-set("../img/bg-desktop-card3.webp" 1x, "../img/bg-desktop-card3@2x.webp" 2x);
 }
 
 .products__link {
@@ -1772,15 +1775,18 @@ button,
   }
 
   .products__item--manufacture {
-    background-image: url("../img/bg-tablet-card1.jpg");
+    background-image: -webkit-image-set(url("../img/bg-tablet-card1.webp") 1x, url("../img/bg-tablet-card1@2x.webp") 2x);
+    background-image: image-set("../img/bg-tablet-card1.webp" 1x, "../img/bg-tablet-card1@2x.webp" 2x);
   }
 
   .products__item--installation {
-    background-image: url("../img/bg-tablet-card2.jpg");
+    background-image: -webkit-image-set(url("../img/bg-tablet-card2.webp") 1x, url("../img/bg-tablet-card2@2x.webp") 2x);
+    background-image: image-set("../img/bg-tablet-card2.webp" 1x, "../img/bg-tablet-card2@2x.webp" 2x);
   }
 
   .products__item--accessories {
-    background-image: url("../img/bg-tablet-card3.jpg");
+    background-image: -webkit-image-set(url("../img/bg-tablet-card3.webp") 1x, url("../img/bg-tablet-card3@2x.webp") 2x);
+    background-image: image-set("../img/bg-tablet-card3.webp" 1x, "../img/bg-tablet-card3@2x.webp" 2x);
   }
 
   .products__subtitle {
@@ -1894,20 +1900,6 @@ button,
 
   .footer-contacts {
     min-width: 308px;
-  }
-}
-
-@media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1023px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 1023px) and (min-resolution: 2dppx) {
-  .products__item--manufacture {
-    background-image: url("../img/bg-tablet-card1@2x.jpg");
-  }
-
-  .products__item--installation {
-    background-image: url("../img/bg-tablet-card2@2x.jpg");
-  }
-
-  .products__item--accessories {
-    background-image: url("../img/bg-tablet-card3@2x.jpg");
   }
 }
 
@@ -2061,15 +2053,18 @@ button,
   }
 
   .products__item--manufacture {
-    background-image: url("../img/bg-mobile-card1.jpg");
+    background-image: -webkit-image-set(url("../img/bg-mobile-card1.webp") 1x, url("../img/bg-mobile-card1@2x.webp") 2x);
+    background-image: image-set("../img/bg-mobile-card1.webp" 1x, "../img/bg-mobile-card1@2x.webp" 2x);
   }
 
   .products__item--installation {
-    background-image: url("../img/bg-mobile-card2.jpg");
+    background-image: -webkit-image-set(url("../img/bg-mobile-card2.webp") 1x, url("../img/bg-mobile-card2@2x.webp") 2x);
+    background-image: image-set("../img/bg-mobile-card2.webp" 1x, "../img/bg-mobile-card2@2x.webp" 2x);
   }
 
   .products__item--accessories {
-    background-image: url("../img/bg-mobile-card3.jpg");
+    background-image: -webkit-image-set(url("../img/bg-mobile-card3.webp") 1x, url("../img/bg-mobile-card3@2x.webp") 2x);
+    background-image: image-set("../img/bg-mobile-card3.webp" 1x, "../img/bg-mobile-card3@2x.webp" 2x);
   }
 
   .products__subtitle {
@@ -2345,36 +2340,8 @@ button,
   }
 }
 
-@media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and (min-resolution: 2dppx) {
-  .products__item--manufacture {
-    background-image: url("../img/bg-mobile-card1@2x.jpg");
-  }
-
-  .products__item--installation {
-    background-image: url("../img/bg-mobile-card2@2x.jpg");
-  }
-
-  .products__item--accessories {
-    background-image: url("../img/bg-mobile-card3@2x.jpg");
-  }
-}
-
 @media (hover: hover) {
   .btn:hover:not(.focus-visible) {
     opacity: 0.8;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
-  .products__item--manufacture {
-    background-image: url("../img/bg-desktop-card1@2x.jpg");
-  }
-
-  .products__item--installation {
-    background-image: url("../img/bg-desktop-card2@2x.jpg");
-  }
-
-  .products__item--accessories {
-    background-image: url("../img/bg-desktop-card3@2x.jpg");
   }
 }

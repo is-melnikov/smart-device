@@ -82,74 +82,65 @@
   }
 
   &--manufacture {
-    background-image: url("../img/bg-desktop-card1.jpg");
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../img/bg-desktop-card1@2x.jpg");
-    }
+    background-image: image-set(
+      "../img/bg-desktop-card1.webp" 1x,
+      "../img/bg-desktop-card1@2x.webp" 2x
+      );
 
     @include vp-1023 {
-      background-image: url("../img/bg-tablet-card1.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-tablet-card1@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-tablet-card1.webp" 1x,
+      "../img/bg-tablet-card1@2x.webp" 2x
+      );
     }
 
     @include vp-767 {
-      background-image: url("../img/bg-mobile-card1.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-mobile-card1@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-mobile-card1.webp" 1x,
+      "../img/bg-mobile-card1@2x.webp" 2x
+      );
     }
   }
 
   &--installation {
-    background-image: url("../img/bg-desktop-card2.jpg");
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../img/bg-desktop-card2@2x.jpg");
-    }
+    background-image: image-set(
+      "../img/bg-desktop-card2.webp" 1x,
+      "../img/bg-desktop-card2@2x.webp" 2x
+      );
 
     @include vp-1023 {
-      background-image: url("../img/bg-tablet-card2.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-tablet-card2@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-tablet-card2.webp" 1x,
+      "../img/bg-tablet-card2@2x.webp" 2x
+      );
     }
 
     @include vp-767 {
-      background-image: url("../img/bg-mobile-card2.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-mobile-card2@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-mobile-card2.webp" 1x,
+      "../img/bg-mobile-card2@2x.webp" 2x
+      );
     }
   }
 
   &--accessories {
-    background-image: url("../img/bg-desktop-card3.jpg");
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../img/bg-desktop-card3@2x.jpg");
-    }
+    background-image: image-set(
+      "../img/bg-desktop-card3.webp" 1x,
+      "../img/bg-desktop-card3@2x.webp" 2x
+      );
 
     @include vp-1023 {
-      background-image: url("../img/bg-tablet-card3.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-tablet-card3@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-tablet-card3.webp" 1x,
+      "../img/bg-tablet-card3@2x.webp" 2x
+      );
     }
 
     @include vp-767 {
-      background-image: url("../img/bg-mobile-card3.jpg");
-
-      @media (min-resolution: 2dppx) {
-        background-image: url("../img/bg-mobile-card3@2x.jpg");
-      }
+      background-image: image-set(
+      "../img/bg-mobile-card3.webp" 1x,
+      "../img/bg-mobile-card3@2x.webp" 2x
+      );
     }
   }
 }
