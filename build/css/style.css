@@ -710,6 +710,26 @@ button,
   display: none;
 }
 
+.modal--responsive .modal__content {
+  width: 100%;
+}
+
+.modal--fit-content .modal__content {
+  width: auto;
+}
+
+.modal--no-scale {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.modal--preload {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
 .modal__wrapper {
   position: relative;
   display: -webkit-box;
@@ -755,26 +775,6 @@ button,
   background: rgba(255, 255, 255, 0);
   border: none;
   cursor: pointer;
-}
-
-.modal--responsive .modal__content {
-  width: 100%;
-}
-
-.modal--fit-content .modal__content {
-  width: auto;
-}
-
-.modal--no-scale {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.modal--preload {
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
 }
 
 .modal.is-active {
@@ -964,6 +964,7 @@ button,
   object-fit: cover;
   width: 100%;
   height: 100%;
+  background-color: #314d6e;
 }
 
 .main-block__overlay {
@@ -1908,6 +1909,10 @@ button,
     padding: 0 16px;
   }
 
+  .modal--fit-content .modal__content {
+    width: 100%;
+  }
+
   .modal__wrapper {
     padding: 60px 16px;
   }
@@ -1915,10 +1920,6 @@ button,
   .modal__content {
     width: 100%;
     padding: 20px;
-  }
-
-  .modal--fit-content .modal__content {
-    width: 100%;
   }
 
   .main-header__container {

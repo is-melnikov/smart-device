@@ -38,6 +38,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  background-color: #314d6e;
 
   @include vp-1023 {
     height: 640px;
