@@ -21,7 +21,7 @@
 
 .products__title {
   margin: 0 0 52px;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $ff-secondary;
   font-weight: 400;
   font-size: 36px;
   line-height: 51px;
@@ -154,7 +154,7 @@
 .products__item-subtitle {
   width: 67%;
   margin: 0;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $ff-secondary;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;

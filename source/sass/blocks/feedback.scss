@@ -36,7 +36,7 @@
 
 .feedback__title {
   margin: 0 0 11px -5px;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $ff-secondary;
   font-weight: 400;
   font-size: 36px;
   line-height: 51px;
@@ -55,7 +55,7 @@
 
 .feedback__description {
   margin: 0 0 35px;
-  font-family: "PT Mono", "Arial", sans-serif;
+  font-family: $ff-primary;
   font-size: 16px;
   line-height: 22px;
   color: $color-default-white;

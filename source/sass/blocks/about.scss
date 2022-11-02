@@ -29,13 +29,11 @@
 }
 
 .about__text-wrapper {
-  display: flex;
-  flex-direction: column;
   margin-left: 100px;
 
   & h2 {
     margin: 0 0 12px;
-    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-family: $ff-secondary;
     font-weight: 400;
     font-size: 36px;
     line-height: 51px;
@@ -49,7 +47,7 @@
 
   & p {
     margin: 0 0 20px;
-    font-family: "PT Mono", "Arial", sans-serif;
+    font-family: $ff-primary;
     font-size: 16px;
     line-height: 22px;
     color: #041827;
@@ -77,7 +75,7 @@
 .about__description--hidden-mobile {
   display: block;
   margin: -20px 0 21px;
-  font-family: "PT Mono", "Arial", sans-serif;
+  font-family: $ff-primary;
   font-size: 16px;
   line-height: 22px;
 
@@ -95,7 +93,7 @@
   margin: 19px 0 0;
   padding: 14px 12px;
   border-style: none;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $ff-secondary;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;

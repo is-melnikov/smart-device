@@ -20,7 +20,7 @@
     border: none;
     background-color: rgba(4, 20, 39, 0.15);
     border-radius: 3px;
-    font-family: "PT Mono", "Arial", sans-serif;
+    font-family: $ff-primary;
     font-size: 16px;
     line-height: 22px;
     color: $color-default-black;
@@ -86,7 +86,7 @@
     width: 265px;
     padding: 13px 25px;
     border-style: none;
-    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-family: $ff-secondary;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -120,7 +120,7 @@
     align-self: flex-end;
     margin: 0 0 0 10px;
     padding-left: 26px;
-    font-family: "PT Mono", "Arial", sans-serif;
+    font-family: $ff-primary;
     font-size: 14px;
     line-height: 16px;
     color: $color-default-white;
@@ -175,7 +175,7 @@
 
   h2 {
     margin: 0 0 -16px;
-    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-family: $ff-secondary;
     font-weight: 400;
     font-size: 30px;
     line-height: 42px;
@@ -184,7 +184,7 @@
 
   p {
     margin: 0 0 15px;
-    font-family: "PT Mono", "Arial", sans-serif;
+    font-family: $ff-primary;
     font-size: 16px;
     line-height: 22px;
     color: $color-default-white;
