@@ -1559,7 +1559,6 @@ button,
   justify-content: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  min-height: 150px;
   min-width: 220px;
   gap: 5px 30px;
 }
@@ -2234,11 +2233,22 @@ button,
     display: none;
   }
 
-  .footer-navigation__list {
+  .footer-navigation--open .footer-navigation__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer-navigation__list:last-child {
     padding-bottom: 20px;
   }
 
   .footer-navigation__list--hidden {
+    display: none;
+  }
+
+  .footer-navigation__list--hidden ~ .footer-navigation__list {
     display: none;
   }
 
