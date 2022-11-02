@@ -949,12 +949,12 @@ button,
   line-height: 22px;
 }
 
-.main-block__wrapper {
+.main-block__container {
   width: 1080px;
   margin: 0 auto;
 }
 
-.main-block__container {
+.main-block__wrapper {
   position: absolute;
   top: 0;
   padding: 304px 124px 280px 55px;
@@ -1044,9 +1044,6 @@ button,
 .products__container {
   max-width: 1320px;
   margin: 0 auto;
-}
-
-.products__wrapper {
   padding: 64px 50px 143px;
 }
 
@@ -1147,13 +1144,10 @@ button,
 .about__container {
   max-width: 1320px;
   margin: 0 auto;
-}
-
-.about__wrapper {
+  padding: 60px 50px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 50px 100px;
 }
 
 .about__image {
@@ -1232,9 +1226,6 @@ button,
 .feedback__container {
   max-width: 1320px;
   margin: 0 auto;
-}
-
-.feedback__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1733,7 +1724,7 @@ button,
     margin: 0 0 8px;
   }
 
-  .main-block__container {
+  .main-block__wrapper {
     padding: 178px 50px 280px;
   }
 
@@ -1768,7 +1759,7 @@ button,
     padding: 17px 25px;
   }
 
-  .products__wrapper {
+  .products__container {
     padding: 55px 50px 76px;
   }
 
@@ -1811,7 +1802,7 @@ button,
     display: block;
   }
 
-  .about__wrapper {
+  .about__container {
     padding: 35px 50px 80px 46px;
   }
 
@@ -1835,7 +1826,7 @@ button,
     background: #00b3ff;
   }
 
-  .feedback__wrapper {
+  .feedback__container {
     padding: 45px 50px 125px;
   }
 
@@ -1992,7 +1983,7 @@ button,
     line-height: 19px;
   }
 
-  .main-block__container {
+  .main-block__wrapper {
     padding: 150px 25px 190px;
   }
 
@@ -2044,7 +2035,7 @@ button,
     display: none;
   }
 
-  .products__wrapper {
+  .products__container {
     padding: 47px 25px 86px;
   }
 
@@ -2092,7 +2083,7 @@ button,
     height: 40px;
   }
 
-  .about__wrapper {
+  .about__container {
     padding: 23px 25px 82px;
   }
 
@@ -2125,7 +2116,7 @@ button,
     padding: 8px 12px;
   }
 
-  .feedback__wrapper {
+  .feedback__container {
     padding: 47px 25px 88px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;

@@ -1,11 +1,8 @@
 .about__container {
   max-width: 1320px;
   margin: 0 auto;
-}
-
-.about__wrapper {
-  display: flex;
   padding: 60px 50px 100px;
+  display: flex;
 
   @include vp-1023 {
     padding: 35px 50px 80px 46px;

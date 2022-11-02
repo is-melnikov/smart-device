@@ -5,9 +5,6 @@
 .products__container {
   max-width: 1320px;
   margin: 0 auto;
-}
-
-.products__wrapper {
   padding: 64px 50px 143px;
 
   @include vp-1023 {
