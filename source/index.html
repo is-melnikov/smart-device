@@ -131,7 +131,7 @@
           <div class="products__container">
             <div class="products__wrapper">
               <h2 class="products__title products__title--desktop">Smart Device предлагает следующие товары и&nbsp;услуги</h2>
-              <h2 class="products__title products__title--mobile">Товары и&nbsp;услуги<br> Smart Device</h2>
+              <span class="products__title products__title--mobile">Товары и&nbsp;услуги<br> Smart Device</span>
               <ul class="products__list reset-list">
                 <li class="products__item products__item--manufacture">
                   <a href="#" class="products__link">
@@ -187,7 +187,8 @@
                   <input type="text" name="first-name" id="first-name" placeholder="Имя" required>
                   <label class="visually-hidden" for="phone-number">Телефон</label>
                   <input type="tel" pattern="\+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" name="phone-number" id="phone-number" placeholder="Телефон" data-js="phone-number" required>
-                  <textarea name="question" cols="30" rows="6" placeholder="Ваш вопрос"></textarea>
+                  <label class="visually-hidden" for="question">Ваш вопрос</label>
+                  <textarea name="question" id="question" cols="30" rows="6" placeholder="Ваш вопрос"></textarea>
                   <button type="submit">Задать вопрос</button>
                   <label>
                     <input class="visually-hidden" type="checkbox" name="personal-information-agree" value="agree" required checked>
@@ -305,7 +306,8 @@
             <input type="text" name="first-name" id="first-name-modal" placeholder="Имя" required>
             <label for="phone-number-modal" class="visually-hidden">Телефон</label>
             <input type="tel" pattern="\+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" name="phone-number" placeholder="Телефон" id="phone-number-modal" data-js="phone-number" required>
-            <textarea name="question" cols="30" rows="6" placeholder="Ваш вопрос"></textarea>
+            <label class="visually-hidden" for="question">Ваш вопрос</label>
+            <textarea name="question" id="question" cols="30" rows="6" placeholder="Ваш вопрос"></textarea>
             <button type="submit">Отправить</button>
             <label>
               <input class="visually-hidden" type="checkbox" name="personal-information-agree" value="agree" required checked>

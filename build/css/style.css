@@ -1086,13 +1086,13 @@ button,
   background-image: image-set("../img/bg-desktop-card3.webp" 1x, "../img/bg-desktop-card3@2x.webp" 2x);
 }
 
-.products__link {
+.products__item-link {
   display: block;
   height: 100%;
   width: 100%;
 }
 
-.products__subtitle {
+.products__item-subtitle {
   width: 67%;
   margin: 0;
   font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -1102,11 +1102,11 @@ button,
   color: #ffffff;
 }
 
-.products__subtitle br {
+.products__item-subtitle br {
   display: none;
 }
 
-.products__button {
+.products__item-button {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1125,11 +1125,11 @@ button,
   border-radius: 3px 0 0 0;
 }
 
-.products__button:hover {
+.products__item-button:hover {
   opacity: 0.5;
 }
 
-.products__button:active {
+.products__item-button:active {
   opacity: 0.3;
 }
 
@@ -1789,11 +1789,11 @@ button,
     background-image: image-set("../img/bg-tablet-card3.webp" 1x, "../img/bg-tablet-card3@2x.webp" 2x);
   }
 
-  .products__subtitle {
+  .products__item-subtitle {
     width: 34%;
   }
 
-  .products__subtitle br {
+  .products__item-subtitle br {
     display: block;
   }
 
@@ -2067,13 +2067,13 @@ button,
     background-image: image-set("../img/bg-mobile-card3.webp" 1x, "../img/bg-mobile-card3@2x.webp" 2x);
   }
 
-  .products__subtitle {
+  .products__item-subtitle {
     width: 74%;
     font-size: 18px;
     line-height: 30px;
   }
 
-  .products__button {
+  .products__item-button {
     width: 40px;
     height: 40px;
   }
