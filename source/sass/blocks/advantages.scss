@@ -22,7 +22,7 @@
 .advantages__item {
   position: relative;
   min-height: 300px;
-  padding: 40px 40px 35px;
+  padding: 40px 45px 35px;
   border: 1px solid #ebebeb;
 
   &::before {
@@ -37,7 +37,7 @@
 
   @include vp-1023 {
     min-height: 360px;
-    padding: 40px 40px 18px;
+    padding: 40px 43px 18px;
 
     &--short {
       min-height: 360px;
@@ -50,7 +50,7 @@
 
   @include vp-767 {
     min-height: 340px;
-    padding: 29px 25px 18px 24px;
+    padding: 30px 25px 18px 28px;
 
     &--short {
       min-height: 325px;
