@@ -2,24 +2,6 @@
   background-color: #041827;
 }
 
-.main-footer__container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 50px 88px 55px 50px;
-
-  @include vp-1023 {
-    padding: 50px 40px 65px 50px;
-  }
-
-  @include vp-767 {
-    display: block;
-    padding: 35px 25px;
-  }
-}
-
 .main-footer__wrapper {
   @include vp-1023 {
     display: flex;
@@ -68,7 +50,11 @@
 }
 
 .main-footer__footer-navigation {
-  margin-top: 10px;
+  margin-top: 8px;
+
+  @include vp-1023 {
+    margin-top: 10px;
+  }
 
   @include vp-767 {
     margin-top: 0;
@@ -76,7 +62,7 @@
 }
 
 .main-footer__footer-contacts {
-  margin: 10px 0 0 10px;
+  margin: 8px 0 0 10px;
 
   @include vp-1023 {
     margin: 10px 22px 0 10px;

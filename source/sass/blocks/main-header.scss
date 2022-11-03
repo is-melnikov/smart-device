@@ -9,26 +9,6 @@
   }
 }
 
-.main-header__container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 30px 116px 34px 50px;
-
-  @include vp-1023 {
-    align-items: stretch;
-    padding: 18px 50px 25px;
-  }
-
-  @include vp-767 {
-    align-items: center;
-    padding: 4px 15px 8px 26px;
-  }
-}
-
 .main-header__header-contacts {
   margin: 0 0 8px -5px;
 
