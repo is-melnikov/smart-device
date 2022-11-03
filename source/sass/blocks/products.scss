@@ -161,22 +161,22 @@
   line-height: 30px;
   color: $color-default-white;
 
-  & br {
-    display: none;
-  }
-
   @include vp-1023 {
     width: 34%;
-
-    & br {
-      display: block;
-    }
   }
 
   @include vp-767 {
     width: 74%;
     font-size: 18px;
     line-height: 30px;
+  }
+}
+
+.products__item-subtitle br {
+  display: none;
+
+  @include vp-1023 {
+    display: block;
   }
 }
 
