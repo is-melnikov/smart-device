@@ -1093,18 +1093,18 @@ button,
 }
 
 .products__item--manufacture {
-  background-image: -webkit-image-set(url("../img/bg-desktop-card1.webp") 1x, url("../img/bg-desktop-card1@2x.webp") 2x);
-  background-image: image-set("../img/bg-desktop-card1.webp" 1x, "../img/bg-desktop-card1@2x.webp" 2x);
+  background-image: -webkit-image-set(url("../img/bg-desktop-card1.webp") 1x, url("../img/bg-desktop-card1@2x.webp") 2x, url("../img/bg-desktop-card1.jpg") 1x, url("../img/bg-desktop-card1@2x.jpg") 2x);
+  background-image: image-set("../img/bg-desktop-card1.webp" 1x, "../img/bg-desktop-card1@2x.webp" 2x, "../img/bg-desktop-card1.jpg" 1x, "../img/bg-desktop-card1@2x.jpg" 2x);
 }
 
 .products__item--installation {
-  background-image: -webkit-image-set(url("../img/bg-desktop-card2.webp") 1x, url("../img/bg-desktop-card2@2x.webp") 2x);
-  background-image: image-set("../img/bg-desktop-card2.webp" 1x, "../img/bg-desktop-card2@2x.webp" 2x);
+  background-image: -webkit-image-set(url("../img/bg-desktop-card2.webp") 1x, url("../img/bg-desktop-card2@2x.webp") 2x, url("../img/bg-desktop-card2.jpg") 1x, url("../img/bg-desktop-card2@2x.jpg") 2x);
+  background-image: image-set("../img/bg-desktop-card2.webp" 1x, "../img/bg-desktop-card2@2x.webp" 2x, "../img/bg-desktop-card2.jpg" 1x, "../img/bg-desktop-card2@2x.jpg" 2x);
 }
 
 .products__item--accessories {
-  background-image: -webkit-image-set(url("../img/bg-desktop-card3.webp") 1x, url("../img/bg-desktop-card3@2x.webp") 2x);
-  background-image: image-set("../img/bg-desktop-card3.webp" 1x, "../img/bg-desktop-card3@2x.webp" 2x);
+  background-image: -webkit-image-set(url("../img/bg-desktop-card3.webp") 1x, url("../img/bg-desktop-card3@2x.webp") 2x, url("../img/bg-desktop-card3.jpg") 1x, url("../img/bg-desktop-card3@2x.jpg") 2x);
+  background-image: image-set("../img/bg-desktop-card3.webp" 1x, "../img/bg-desktop-card3@2x.webp" 2x, "../img/bg-desktop-card3.jpg" 1x, "../img/bg-desktop-card3@2x.jpg" 2x);
 }
 
 .products__item-link {
@@ -1759,18 +1759,18 @@ button,
   }
 
   .products__item--manufacture {
-    background-image: -webkit-image-set(url("../img/bg-tablet-card1.webp") 1x, url("../img/bg-tablet-card1@2x.webp") 2x);
-    background-image: image-set("../img/bg-tablet-card1.webp" 1x, "../img/bg-tablet-card1@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-tablet-card1.webp") 1x, url("../img/bg-tablet-card1@2x.webp") 2x, url("../img/bg-tablet-card1.jpg") 1x, url("../img/bg-tablet-card1@2x.jpg") 2x);
+    background-image: image-set("../img/bg-tablet-card1.webp" 1x, "../img/bg-tablet-card1@2x.webp" 2x, "../img/bg-tablet-card1.jpg" 1x, "../img/bg-tablet-card1@2x.jpg" 2x);
   }
 
   .products__item--installation {
-    background-image: -webkit-image-set(url("../img/bg-tablet-card2.webp") 1x, url("../img/bg-tablet-card2@2x.webp") 2x);
-    background-image: image-set("../img/bg-tablet-card2.webp" 1x, "../img/bg-tablet-card2@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-tablet-card2.webp") 1x, url("../img/bg-tablet-card2@2x.webp") 2x, url("../img/bg-tablet-card2.jpg") 1x, url("../img/bg-tablet-card2@2x.jpg") 2x);
+    background-image: image-set("../img/bg-tablet-card2.webp" 1x, "../img/bg-tablet-card2@2x.webp" 2x, "../img/bg-tablet-card2.jpg" 1x, "../img/bg-tablet-card2@2x.jpg" 2x);
   }
 
   .products__item--accessories {
-    background-image: -webkit-image-set(url("../img/bg-tablet-card3.webp") 1x, url("../img/bg-tablet-card3@2x.webp") 2x);
-    background-image: image-set("../img/bg-tablet-card3.webp" 1x, "../img/bg-tablet-card3@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-tablet-card3.webp") 1x, url("../img/bg-tablet-card3@2x.webp") 2x, url("../img/bg-tablet-card3.jpg") 1x, url("../img/bg-tablet-card3@2x.jpg") 2x);
+    background-image: image-set("../img/bg-tablet-card3.webp" 1x, "../img/bg-tablet-card3@2x.webp" 2x, "../img/bg-tablet-card3.jpg" 1x, "../img/bg-tablet-card3@2x.jpg" 2x);
   }
 
   .products__item-subtitle {
@@ -2049,18 +2049,18 @@ button,
   }
 
   .products__item--manufacture {
-    background-image: -webkit-image-set(url("../img/bg-mobile-card1.webp") 1x, url("../img/bg-mobile-card1@2x.webp") 2x);
-    background-image: image-set("../img/bg-mobile-card1.webp" 1x, "../img/bg-mobile-card1@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-mobile-card1.webp") 1x, url("../img/bg-mobile-card1@2x.webp") 2x, url("../img/bg-mobile-card1.jpg") 1x, url("../img/bg-mobile-card1@2x.jpg") 2x);
+    background-image: image-set("../img/bg-mobile-card1.webp" 1x, "../img/bg-mobile-card1@2x.webp" 2x, "../img/bg-mobile-card1.jpg" 1x, "../img/bg-mobile-card1@2x.jpg" 2x);
   }
 
   .products__item--installation {
-    background-image: -webkit-image-set(url("../img/bg-mobile-card2.webp") 1x, url("../img/bg-mobile-card2@2x.webp") 2x);
-    background-image: image-set("../img/bg-mobile-card2.webp" 1x, "../img/bg-mobile-card2@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-mobile-card2.webp") 1x, url("../img/bg-mobile-card2@2x.webp") 2x, url("../img/bg-mobile-card2.jpg") 1x, url("../img/bg-mobile-card2@2x.jpg") 2x);
+    background-image: image-set("../img/bg-mobile-card2.webp" 1x, "../img/bg-mobile-card2@2x.webp" 2x, "../img/bg-mobile-card2.jpg" 1x, "../img/bg-mobile-card2@2x.jpg" 2x);
   }
 
   .products__item--accessories {
-    background-image: -webkit-image-set(url("../img/bg-mobile-card3.webp") 1x, url("../img/bg-mobile-card3@2x.webp") 2x);
-    background-image: image-set("../img/bg-mobile-card3.webp" 1x, "../img/bg-mobile-card3@2x.webp" 2x);
+    background-image: -webkit-image-set(url("../img/bg-mobile-card3.webp") 1x, url("../img/bg-mobile-card3@2x.webp") 2x, url("../img/bg-mobile-card3.jpg") 1x, url("../img/bg-mobile-card3@2x.jpg") 2x);
+    background-image: image-set("../img/bg-mobile-card3.webp" 1x, "../img/bg-mobile-card3@2x.webp" 2x, "../img/bg-mobile-card3.jpg" 1x, "../img/bg-mobile-card3@2x.jpg" 2x);
   }
 
   .products__item-subtitle {
