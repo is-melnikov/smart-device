@@ -1457,8 +1457,13 @@ button,
   background-color: #041827;
 }
 
+.main-footer__wrapper {
+  margin: 0 140px 0 0;
+}
+
 .main-footer__logo {
-  margin: 0 140px 30px 0;
+  display: block;
+  margin: 0 0 30px 0;
 }
 
 .main-footer__link {
@@ -1841,11 +1846,11 @@ button,
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 27px;
+    margin: 0 0 27px;
   }
 
   .main-footer__logo {
-    margin: 0;
+    margin: 0 auto 0 0;
   }
 
   .main-footer__footer-navigation {
