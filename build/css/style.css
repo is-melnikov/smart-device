@@ -2186,7 +2186,7 @@ button,
 
   .footer-navigation::before {
     content: "";
-    width: 100vw;
+    width: calc(100% + 50px);
     height: 1px;
     background-color: rgba(248, 253, 255, 0.7);
     position: absolute;
@@ -2195,7 +2195,7 @@ button,
 
   .footer-navigation::after {
     content: "";
-    width: 100vw;
+    width: calc(100% + 50px);
     height: 1px;
     background-color: rgba(248, 253, 255, 0.7);
     position: absolute;
@@ -2268,7 +2268,7 @@ button,
 
   .footer-contacts::before {
     content: "";
-    width: 100vw;
+    width: calc(100% + 50px);
     height: 1px;
     background-color: rgba(248, 253, 255, 0.7);
     position: absolute;
@@ -2277,7 +2277,7 @@ button,
 
   .footer-contacts::after {
     content: "";
-    width: 100vw;
+    width: calc(100% + 50px);
     height: 1px;
     background-color: rgba(248, 253, 255, 0.7);
     position: absolute;
