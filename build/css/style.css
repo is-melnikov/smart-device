@@ -1704,10 +1704,9 @@ input[data-js=phone-number] + .error {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: end;
+    gap: 0;
     min-width: 100px;
+    max-width: 240px;
   }
 
   .header-contacts__item {
@@ -1979,6 +1978,10 @@ input[data-js=phone-number] + .error {
 
   .logo__icon-mobile {
     display: block;
+  }
+
+  .header-contacts {
+    max-width: 120px;
   }
 
   .advantages__list {
