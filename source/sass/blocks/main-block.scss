@@ -54,24 +54,6 @@
   }
 }
 
-// .main-block__overlay {
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   z-index: -1;
-//   background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%);
-
-//   @include vp-1023 {
-//     top: -80px;
-//   }
-
-//   @include vp-767 {
-//     height: 560px;
-//   }
-// }
-
 .main-block__title {
   margin: 0 0 33px;
   font-family: $ff-secondary;
@@ -118,7 +100,7 @@
 
 .main-block__link {
   display: block;
-  width: 49%;
+  width: 410px;
   padding: 16px 25px;
   background-color: #00b2ff;
   border-radius: 3px;

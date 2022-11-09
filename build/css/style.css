@@ -871,14 +871,11 @@ button,
 }
 
 .header-contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
   min-width: 480px;
 }
 
@@ -1017,7 +1014,7 @@ button,
 
 .main-block__link {
   display: block;
-  width: 49%;
+  width: 410px;
   padding: 16px 25px;
   background-color: #00b2ff;
   border-radius: 3px;
@@ -1678,6 +1675,11 @@ button,
   }
 
   .header-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: end;
