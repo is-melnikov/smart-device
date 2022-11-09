@@ -3,13 +3,17 @@
   margin: 0 auto;
 
   &--main-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 28% 1fr 160px;
+    justify-items: start;
     align-items: center;
+    gap: 42px;
     padding: 30px 116px 34px 50px;
 
     @include vp-1023 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       align-items: stretch;
       padding: 20px 50px 25px;
     }
