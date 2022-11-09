@@ -152,6 +152,14 @@
   display: block;
   height: 100%;
   width: 100%;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .products__item-subtitle {

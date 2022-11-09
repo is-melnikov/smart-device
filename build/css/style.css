@@ -1097,6 +1097,14 @@ button,
   width: 100%;
 }
 
+.products__item-link:hover {
+  opacity: 0.5;
+}
+
+.products__item-link:active {
+  opacity: 0.3;
+}
+
 .products__item-subtitle {
   width: 67%;
   margin: 0;
