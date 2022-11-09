@@ -3,8 +3,6 @@
 }
 
 .main-footer__wrapper {
-  margin: 0 140px 0 0;
-
   @include vp-1023 {
     display: flex;
     justify-content: space-between;

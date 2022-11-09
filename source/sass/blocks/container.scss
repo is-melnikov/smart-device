@@ -73,12 +73,14 @@
   }
 
   &--main-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 31.7% 489px 1fr;
     padding: 50px 88px 55px 50px;
 
     @include vp-1023 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       padding: 50px 40px 65px 50px;
     }
 
