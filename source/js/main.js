@@ -4,6 +4,7 @@ import {showMore} from './modules/modals/show-more';
 import {showAccordion} from './modules/modals/show-accordion';
 import {createMask} from './modules/modals/phone-mask';
 import {editTabindex} from './modules/modals/tabindex';
+import {phoneValidate} from './modules/modals/phone-validate';
 
 // ---------------------------------
 
@@ -19,6 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   showAccordion();
   createMask();
   editTabindex();
+  phoneValidate();
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
   // в load следует добавить скрипты, не участвующие в работе первого экрана

@@ -1242,6 +1242,7 @@ button,
 }
 
 .form {
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -1399,6 +1400,21 @@ button,
 
 .form label:last-of-type input[type=checkbox]:hover + span::before {
   opacity: 0.5;
+}
+
+input[data-js=phone-number] + span {
+  position: absolute;
+  right: 0;
+  top: 52px;
+  display: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ff0000;
+}
+
+input[data-js=phone-number] + .error {
+  display: block;
 }
 
 .form--modal {
