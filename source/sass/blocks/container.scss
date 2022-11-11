@@ -10,6 +10,10 @@
     gap: 42px;
     padding: 30px 116px 34px 50px;
 
+    @include vp-1439 {
+      grid-template-columns: 28% 50% 160px;
+    }
+
     @include vp-1023 {
       display: flex;
       justify-content: space-between;

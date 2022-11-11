@@ -1,8 +1,8 @@
 .header-contacts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr max-content;
   gap: 24px;
-  min-width: 480px;
+  min-width: 82%;
 
   @include vp-1023 {
     display: flex;

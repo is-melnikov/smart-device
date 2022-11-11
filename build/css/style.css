@@ -873,10 +873,12 @@ button,
 .header-contacts {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr -webkit-max-content;
+  -ms-grid-columns: 1fr max-content;
+  grid-template-columns: 1fr -webkit-max-content;
+  grid-template-columns: 1fr max-content;
   gap: 24px;
-  min-width: 480px;
+  min-width: 82%;
 }
 
 .header-contacts__link {
@@ -1637,6 +1639,13 @@ input[data-js=phone-number] + .error {
 
   .main-block__text--desktop {
     display: block;
+  }
+}
+
+@media (max-width: 1439px) {
+  .container--main-header {
+    -ms-grid-columns: 28% 50% 160px;
+    grid-template-columns: 28% 50% 160px;
   }
 }
 
